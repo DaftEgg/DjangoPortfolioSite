@@ -10,5 +10,5 @@ A portfolio website written in Python and Django that also supports a blog area.
 
 ![alt preview3](https://i.imgur.com/ISDyEOR.png)
 
-Here are the resources for Django and Isar.
+Here are the resources for Django.
 - [Django](https://www.djangoproject.com/)
