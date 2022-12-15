@@ -1,0 +1,67 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>Starter Template · Bootstrap v5.2</title>
+
+    <link rel="stylesheet" href="{% static 'bootstrap.min.css' %}">
+    <meta name="theme-color" content="#712cf9">
+</head>
+
+<body>
+    <div class="col-lg-8 mx-auto p-4 py-md-5">
+        <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+            <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+                <span class="fs-4">Portfolio</span>
+            </a>
+        </header>
+
+        <main>
+            <h1>Hi, I'm John Doe</h1>
+            <p class="fs-5 col-md-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat veritatis,
+                dolores aspernatur nemo ducimus, unde necessitatibus itaque dolor.</p>
+
+            <div class="mb-5">
+                <a href="/docs/5.2/examples/" class="btn btn-primary btn-lg px-4">Full Portfolio</a>
+            </div>
+
+            <hr class="col-3 col-md-2 mb-5">
+
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <h2>Latest Projects</h2>
+                    <p>Some of my work contains client projects and personal projects.</p>
+                    <ul class="icon-list ps-0">
+                        <li class="d-flex align-items-start mb-1"><a href="#">Cross Platform ToDo Application</a></li>
+                        <li class="d-flex align-items-start mb-1"><a href="#">Another Project #2</a></li>
+                        <li class="d-flex align-items-start mb-1"><a href="#">Another Project #3</a></li>
+                        <li class="d-flex align-items-start mb-1"><a href="#">Another Project #4</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <h2>Blog</h2>
+                    <p>Come check out what's on my mind. I have a personal blog, too!</p>
+                    <ul class="icon-list ps-0">
+                        <li class="d-flex align-items-start mb-1"><a href="#">Blog Post #1</a></li>
+                        <li class="d-flex align-items-start mb-1"><a href="#">Blog Post #2</a></li>
+                        <li class="d-flex align-items-start mb-1"><a href="#">Blog Post #3</a></li>
+                        <li class="d-flex align-items-start mb-1"><a href="#">Blog Post #4</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer class="pt-5 my-5 text-muted border-top">
+            Powered with Django
+        </footer>
+    </div>
+</body>
+
+</html>
